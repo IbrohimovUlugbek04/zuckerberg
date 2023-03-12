@@ -1,0 +1,226 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cfdde8), to(#6591b8));
+  background-image: -o-linear-gradient(top, #cfdde8 0%, #6591b8 100%);
+  background-image: linear-gradient(180deg, #cfdde8 0%, #6591b8 100%);
+  background-repeat: no-repeat;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 590px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 32px;
+  background-color: #6a96d8;
+}
+
+.hero__top-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.hero__top-heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero__top-button {
+  opacity: 0.5;
+}
+
+.hero-end {
+  padding: 29px 32px 0;
+  background-color: #fff;
+}
+
+.hero__text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero__end-heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #d9d9d9;
+  opacity: 0.6;
+}
+
+.hero__text-box::before {
+  display: block;
+  width: 207px;
+  height: 1px;
+  margin-right: 4px;
+  background-color: #d9d9d9;
+  content: "";
+}
+
+.hero__text-box::after {
+  display: block;
+  width: 207px;
+  height: 1px;
+  margin-left: 4px;
+  background-color: #d9d9d9;
+  content: "";
+}
+
+.hero__end-list {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.end__list-item {
+  width: 360px;
+  margin-bottom: 50px;
+}
+
+.end__list-item:nth-child(even) {
+  margin-left: auto;
+}
+
+.end__list-item:nth-last-child(1) {
+width: 245px;
+}
+
+.end__list-item:nth-last-child(1) {
+margin-bottom: 30px;
+}
+
+.list__item-time {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #00000099;
+  opacity: 0.4;
+}
+
+.end__list-item:nth-child(even) .list__item-time {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: end;
+}
+
+.list__item-paragrph {
+  display: inline-block;
+  margin: 0;
+  border-radius: 4px;
+  padding: 10px 16px;
+  background: #e6edf6;
+}
+
+.end__list-item:nth-last-child(1) .list__item-paragrph{
+  background-color: #ffc2c1;
+}
+
+.hero__end-form {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.hero__end-input {
+  width: 300px;
+  padding: 21px 0;
+  font-size: 20px;
+border: none;
+outline: none;
+}
+
+.hero__end-input::-webkit-input-placeholder {
+font-size: 20px;
+}
+
+.hero__end-input::-moz-placeholder {
+font-size: 20px;
+}
+
+.hero__end-input:-ms-input-placeholder {
+font-size: 20px;
+}
+
+.hero__end-input::-ms-input-placeholder {
+font-size: 20px;
+}
+
+.hero__end-input::placeholder {
+font-size: 20px;
+}
+
+.hero__end-button {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px; 
+  color: #6a96d8;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
