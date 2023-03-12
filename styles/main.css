@@ -1,13 +1,6 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -32,7 +25,7 @@ img {
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -51,11 +44,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 35px 32px;
   background-color: #6a96d8;
 }
@@ -89,8 +82,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -136,11 +129,11 @@ img {
 }
 
 .end__list-item:nth-last-child(1) {
-width: 245px;
+  width: 245px;
 }
 
 .end__list-item:nth-last-child(1) {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .list__item-time {
@@ -155,12 +148,12 @@ margin-bottom: 30px;
 }
 
 .end__list-item:nth-child(even) .list__item-time {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-pack: end;
-    -ms-flex-pack: end;
-        justify-content: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .list__item-paragrph {
@@ -171,54 +164,54 @@ display: flex;
   background: #e6edf6;
 }
 
-.end__list-item:nth-last-child(1) .list__item-paragrph{
+.end__list-item:nth-last-child(1) .list__item-paragrph {
   background-color: #ffc2c1;
 }
 
 .hero__end-form {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .hero__end-input {
   width: 300px;
   padding: 21px 0;
   font-size: 20px;
-border: none;
-outline: none;
+  border: none;
+  outline: none;
 }
 
 .hero__end-input::-webkit-input-placeholder {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .hero__end-input::-moz-placeholder {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .hero__end-input:-ms-input-placeholder {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .hero__end-input::-ms-input-placeholder {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .hero__end-input::placeholder {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .hero__end-button {
   font-weight: 600;
   font-size: 20px;
-  line-height: 20px; 
+  line-height: 20px;
   color: #6a96d8;
   cursor: pointer;
   background-color: transparent;
