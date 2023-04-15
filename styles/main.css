@@ -39,6 +39,11 @@ img {
   padding: 0 20px;
 }
 
+.hero-wrapper {
+  overflow: hidden;
+  border-radius: 14px;
+}
+
 .hero-top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,6 +137,9 @@ img {
   width: 245px;
 }
 
+
+
+
 .end__list-item:nth-last-child(1) {
   margin-bottom: 30px;
 }
@@ -158,6 +166,7 @@ img {
 
 .list__item-paragrph {
   display: inline-block;
+  position: relative;
   margin: 0;
   border-radius: 4px;
   padding: 10px 16px;
@@ -166,6 +175,34 @@ img {
 
 .end__list-item:nth-last-child(1) .list__item-paragrph {
   background-color: #ffc2c1;
+}
+
+.end__list-item:nth-child(odd) .list__item-paragrph::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  border-top: 10px solid #e6edf6;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  content: "";
+}
+
+.end__list-item:nth-child(even) .list__item-paragrph::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  border-top: 10px solid #e6edf6;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  content: "";
+}
+
+.end__list-item:nth-last-child(1) .list__item-paragrph::after {
+  border-top: 10px solid #ffc2c1;
 }
 
 .hero__end-form {
